@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [name, setName] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);
+  const [name] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);
 
   return (
     <div>
