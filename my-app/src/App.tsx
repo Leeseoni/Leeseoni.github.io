@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import "./App.css";
+import "./assets/css/index.css";
 
 function App() {
   const [name] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);

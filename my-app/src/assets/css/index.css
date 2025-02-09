@@ -1,4 +1,10 @@
 body {
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=index.css.map */
+  border: 1px solid red;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: red;
+}
