@@ -1,8 +1,40 @@
-body {
-  display: flex;
-  justify-content: center;
-  border: 1px solid red;
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+
+#root {
   width: 100%;
+  height: 100%;
+}
+
+body {
+  place-items: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+header .header__logo {
+  width: 3rem;
+  height: 3rem;
+  background: url("/public/images/h_logo.svg") no-repeat center/contain;
+}
+header .header__subtitle {
+  width: 20px;
+  height: 20px;
+  color: red;
+}
+header .header__title {
+  color: orange;
+}
+header .header__btn--menu {
+  width: 3rem;
+  height: 3rem;
+  background: url("/public/images/h_menu.svg") no-repeat center/contain;
 }
 
 .wrapper {

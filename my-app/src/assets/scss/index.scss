@@ -1,9 +1,6 @@
-body {
-  display: flex;
-  justify-content: center;
-  border: 1px solid red;
-  width: 100%;
-}
+@use "./base/" as *;
+@use "./components/" as *;
+
 .wrapper {
   background-color: red;
 }
