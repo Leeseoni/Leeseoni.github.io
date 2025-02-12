@@ -1,0 +1,16 @@
+@mixin empty-font {
+  font-size: 0;
+  color: transparent;
+}
+
+@mixin flex-CC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-BC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
