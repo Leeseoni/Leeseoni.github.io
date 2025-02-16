@@ -1,19 +1,9 @@
-import { useState } from "react";
 import styles from "../assets/styles/pages/_HonyTip.module.scss";
-import TipContents from "../components/TipContents";
-
-const TipList = (props: { 전달: any[] }) => {
-  // console.log(전달);
-
-  const [tip2] = useState(props.전달);
-
-  // const product: number = props.전달.find((x) => {
-  //   console.log(product);
-  //   return x.id;
-  // });
-
-  useState();
-
+import { Type } from "../module/type";
+interface OwnProps {
+  tip: Type;
+}
+const TipList: React.FC<OwnProps> = (props) => {
   return (
     <div>
       <div className="title">
@@ -22,8 +12,8 @@ const TipList = (props: { 전달: any[] }) => {
       </div>
       <ul className={styles.tip_list}>
         {/* <li>{props.전달[0].title} </li> */}
-        {props.전달.map((_a: any, i: number) => {
-          return <TipContents key={i} 전달={tip2[i]} />;
+        {props.tip.map((a: any, i) => {
+          return <li key={i}>{props.tip[i].title}</li>;
         })}
       </ul>
     </div>
