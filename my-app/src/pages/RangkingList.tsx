@@ -26,7 +26,6 @@ export const RangkingList: React.FC<OwnProps> = (props) => {
                 <small>{props.benefit[i].address} </small>
                 <span>{props.benefit[i].subtitle}</span>
               </div>
-              W
             </div>
             <div className={styles.average}>
               <span>{props.benefit[i].percent}</span>
