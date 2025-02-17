@@ -13,7 +13,7 @@ export const TipList: React.FC<OwnProps> = (props) => {
       </div>
       <ul className={styles.tip_list}>
         {/* <li>{props.전달[0].title} </li> */}
-        {props.tip.map((a: any, i) => i <= 4 && <li key={i}>{props.tip[i].title} </li>)}
+        {props.tip.map((_a: any, i) => i <= 4 && <li key={i}>{props.tip[i].title} </li>)}
         {/* {props.tip.map((a: any, i) => {
           console.log(a);
           return <li key={i}>{props.tip[i].title}</li>;
