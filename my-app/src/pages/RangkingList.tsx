@@ -16,7 +16,7 @@ export const RangkingList: React.FC<OwnProps> = (props) => {
         <span>모두 보기</span>
       </div>
       <ul className={styles.ranking_list}>
-        {props.benefit.map((a, i) => (
+        {props.benefit.map((a: any, i) => (
           <li key={i}>
             <div>
               <img src="" className={styles.thumb_img} alt="" />
