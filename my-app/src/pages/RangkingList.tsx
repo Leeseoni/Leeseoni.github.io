@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import React from "react";
 import styles from "../assets/styles/pages/_LinkList.module.scss";
 import { RangkingType } from "../module/Type";

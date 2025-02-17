@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from "../assets/styles/pages/_HonyTip.module.scss";
 import { Type } from "../module/Type";
 interface OwnProps {
