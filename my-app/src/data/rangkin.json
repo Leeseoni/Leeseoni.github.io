@@ -1,26 +1,26 @@
 [
   {
     "id": 0,
-    "image": "/src/assets/images/ex_img.png",
-    "title": "패션/망구리패션",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
+    "title": "패션 / 망구리패션",
     "address": "서울시 청량리 103호",
     "subtitle": "빅사이즈",
     "percent": "1.0"
   },
   {
     "id": 1,
-    "image": "/src/assets/images/ex_img.png",
-    "title": "가전/에이스가전마트",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
+    "title": "가전 / 에이스가전마트",
     "address": "서울시 강남구 홍릉",
-    "subtitle": "20만원상당 대 할인",
+    "subtitle": "20만원상당 대할인",
     "percent": "3.0"
   },
   {
     "id": 2,
-    "image": "/src/assets/images/ex_img.png",
-    "title": "음식/ 미친 떡뽁이",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
+    "title": "음식 / 미친 떡뽁이",
     "address": "서울시 공항동 ",
-    "subtitle": "비행기 선물물",
+    "subtitle": "비행기 선물",
     "percent": "5.0"
   }
 ]

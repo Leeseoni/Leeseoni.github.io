@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "image": "/src/assets/images/ex_img.png",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
     "title": "부동산 / 금나와라부동산",
     "address": "서울시 동작구 양녕로 220 상가 103호",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
@@ -9,7 +9,7 @@
   },
   {
     "id": 1,
-    "image": "/src/assets/images/ex_img.png",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
     "title": "부동산 / 구라댕부동산",
     "address": "서울시 강남구 역삼동",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "image": "/src/assets/images/ex_img.png",
+    "image": "https://raw.githubusercontent.com/Leeseoni/Leeseoni.github.io/505c250a008ca36a3f5f69fde19fea15ca82a94f/img/ex_img.png",
     "title": "부동산 / 타도망구리",
     "address": "서울시 공릉동 빛나리 아파트",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
