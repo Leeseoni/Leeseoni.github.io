@@ -5,7 +5,7 @@
 
 :root {
   font-size: 62.5%;
-  letter-spacing: -0.15rem;
+  letter-spacing: -0.1rem;
 }
 
 #root {
@@ -34,34 +34,32 @@ a {
 section {
   padding: 1.6rem;
 }
-section.item_list {
+section .item + .item {
   padding-top: 1.6rem;
 }
-section.item_list .item + .item {
-  padding-top: 1.6rem;
-}
-section.item_list .item .title {
+section .item .title {
+  margin-block: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-section.item_list .item .title > p {
+section .item .title > p {
   font-size: 2rem;
   font-weight: bold;
 }
-section.item_list .item .title > span {
+section .item .title > span {
   font-size: 1.4rem;
   font-weight: bold;
   color: #757b80;
 }
-section.item_list .item .title > span.arrow {
+section .item .title > span.arrow {
   width: 2.4rem;
   height: 2.4rem;
   font-size: 0;
   color: transparent;
   background: url("/src/assets/images/icon_arrow.svg") no-repeat center/contain;
 }
-section.item_list .item .capsule {
+section .item .capsule {
   margin-bottom: 1.6rem;
 }
 

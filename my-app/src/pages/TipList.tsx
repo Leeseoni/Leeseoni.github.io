@@ -3,12 +3,13 @@ import styles from "../assets/styles/pages/_HonyTip.module.scss";
 import { Type } from "../module/Type";
 interface OwnProps {
   tip: Type;
+  title: string;
 }
 export const TipList: React.FC<OwnProps> = (props) => {
   return (
-    <div>
+    <div className="item">
       <div className="title">
-        <p>아파트 입주 꿀팁</p>
+        <p>{props.title}</p>
         <span>모두 보기</span>
       </div>
       <ul className={styles.tip_list}>

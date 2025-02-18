@@ -20,7 +20,7 @@ export const RangkingList: React.FC<OwnProps> = (props) => {
         {props.benefit.map((_a: any, i) => (
           <li key={i}>
             <div>
-              <img src="" className={styles.thumb_img} alt="" />
+              <img src={props.benefit[i].image} className={styles.thumb_img} alt="" />
               <div className={styles.inner_txt}>
                 <p>{props.benefit[i].title}</p>
                 <small>{props.benefit[i].address} </small>

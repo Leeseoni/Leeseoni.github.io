@@ -1,21 +1,24 @@
 [
   {
     "id": 0,
-    "title": "부동산/금나와라부동산",
+    "image": "/src/assets/images/ex_img.png",
+    "title": "부동산 / 금나와라부동산",
     "address": "서울시 동작구 양녕로 220 상가 103호",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
     "percent": "1.0"
   },
   {
     "id": 1,
-    "title": "부동산/구라댕부동산",
+    "image": "/src/assets/images/ex_img.png",
+    "title": "부동산 / 구라댕부동산",
     "address": "서울시 강남구 역삼동",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
     "percent": "0.5"
   },
   {
     "id": 2,
-    "title": "부동산/타도망구리",
+    "image": "/src/assets/images/ex_img.png",
+    "title": "부동산 / 타도망구리",
     "address": "서울시 공릉동 빛나리 아파트",
     "subtitle": "이사지원금 (20만원상당) 외 1건",
     "percent": "2.0"

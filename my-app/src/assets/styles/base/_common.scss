@@ -36,40 +36,37 @@ a {
 section {
   padding: 1.6rem;
 
-  &.item_list {
-    padding-top: 1.6rem;
+  .item {
+    + .item {
+      padding-top: 1.6rem;
+    }
 
-    .item {
-      + .item {
-        padding-top: 1.6rem;
+    .title {
+      margin-block: 1rem;
+      @include common.flex-BC;
+
+      > p {
+        font-size: 2rem;
+        font-weight: bold;
       }
 
-      .title {
-        @include common.flex-BC;
+      > span {
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: var.$text-3;
 
-        > p {
-          font-size: 2rem;
-          font-weight: bold;
-        }
-
-        > span {
-          font-size: 1.4rem;
-          font-weight: bold;
-          color: var.$text-3;
-
-          &.arrow {
-            width: 2.4rem;
-            height: 2.4rem;
-            font-size: 0;
-            color: transparent;
-            background: url("/src/assets/images/icon_arrow.svg") no-repeat center / contain;
-          }
+        &.arrow {
+          width: 2.4rem;
+          height: 2.4rem;
+          font-size: 0;
+          color: transparent;
+          background: url("/src/assets/images/icon_arrow.svg") no-repeat center / contain;
         }
       }
+    }
 
-      .capsule {
-        margin-bottom: 1.6rem;
-      }
+    .capsule {
+      margin-bottom: 1.6rem;
     }
   }
 }

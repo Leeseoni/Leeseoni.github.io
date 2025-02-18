@@ -1,6 +1,7 @@
 [
   {
     "id": 0,
+    "image": "/src/assets/images/ex_img.png",
     "title": "패션/망구리패션",
     "address": "서울시 청량리 103호",
     "subtitle": "빅사이즈",
@@ -8,6 +9,7 @@
   },
   {
     "id": 1,
+    "image": "/src/assets/images/ex_img.png",
     "title": "가전/에이스가전마트",
     "address": "서울시 강남구 홍릉",
     "subtitle": "20만원상당 대 할인",
@@ -15,6 +17,7 @@
   },
   {
     "id": 2,
+    "image": "/src/assets/images/ex_img.png",
     "title": "음식/ 미친 떡뽁이",
     "address": "서울시 공항동 ",
     "subtitle": "비행기 선물물",

@@ -16,6 +16,7 @@ const App: React.FC = () => {
   const [benefit] = useState<RangkingType>(benefitList);
   const [rangkin] = useState<RangkingType>(rangking);
 
+  let title0: string = "아파트 입주 꿀팁";
   let title1: string = "AI 혜택순위";
   let title2: string = "가장 많이 노출 되었어요";
 
@@ -23,11 +24,14 @@ const App: React.FC = () => {
     <div className="full-wrap">
       <Header />
 
-      <section>메인 슬라이드</section>
+      <section>메인 슬라이드 카드할인 배너 아이콘 카테고리</section>
+
       <section>
-        <TipList tip={tip} />
+        <TipList tip={tip} title={title0} />
+        팜플렛 스와이퍼
       </section>
-      <section className="item_list">
+
+      <section>
         <RangkingList benefit={benefit} title={title1} />
         <RangkingList benefit={rangkin} title={title2} />
       </section>

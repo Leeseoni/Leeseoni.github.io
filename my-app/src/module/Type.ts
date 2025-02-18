@@ -5,6 +5,7 @@ export type Type = {
 
 export type RangkingType = {
   id: number;
+  image: string;
   title: string;
   address: string | number;
   subtitle: string | number;
