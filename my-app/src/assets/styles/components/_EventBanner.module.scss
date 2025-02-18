@@ -1,0 +1,19 @@
+@use "../mixin/var";
+
+.bar_banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -1.6rem;
+  padding: 1.4rem 1.6rem;
+  color: var.$white;
+  background: var.$black;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: url(/src/assets/images/icon_chevron_right.svg) no-repeat center / contain;
+  }
+}

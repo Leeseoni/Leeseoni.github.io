@@ -4,6 +4,7 @@ import { RangkingType } from "./module/Type";
 import Header from "./components/Header";
 import { TipList } from "./pages/TipList";
 import { RangkingList } from "./pages/RangkingList";
+import { EventBanner } from "./components/EventBanner";
 import data from "./data/data.json";
 import benefitList from "./data/benefit.json";
 import rangking from "./data/rangkin.json";
@@ -24,7 +25,9 @@ const App: React.FC = () => {
     <div className="full-wrap">
       <Header />
 
-      <section>메인 슬라이드 카드할인 배너 아이콘 카테고리</section>
+      <section>
+        <EventBanner />
+      </section>
 
       <section>
         <TipList tip={tip} title={title0} />
