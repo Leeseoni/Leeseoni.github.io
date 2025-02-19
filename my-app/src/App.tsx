@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Type } from "./module/Type";
 import { RangkingType } from "./module/Type";
-import Header from "./components/Header";
+import { Header } from "./components/Header";
 import { TipList } from "./pages/TipList";
 import { RangkingList } from "./pages/RangkingList";
 import { EventBanner } from "./components/EventBanner";
+import { MainSlider } from "./components/MainSlider";
+import { Input } from "./components/Input";
 import data from "./data/data.json";
 import benefitList from "./data/benefit.json";
 import rangking from "./data/rangkin.json";
@@ -24,8 +26,10 @@ const App: React.FC = () => {
   return (
     <div className="full-wrap">
       <Header />
+      <Input />
 
       <section>
+        <MainSlider />
         <EventBanner />
       </section>
 

@@ -1,6 +1,7 @@
+import React from "react";
 import styles from "../assets/styles/components/_Header.module.scss";
 
-const Header = () => {
+export const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       {/* <h1 className={styles.header__logo}>logo</h1> */}
@@ -10,5 +11,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

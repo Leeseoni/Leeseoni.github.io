@@ -1,0 +1,34 @@
+@use "../mixin/var";
+
+.main_input {
+  margin: 0.8rem;
+
+  &.search {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      margin-left: 0.8rem;
+      display: block;
+      width: 2.4rem;
+      height: 2.4rem;
+      background: url("/src/assets/images/icon_search.svg") no-repeat center / contain;
+    }
+  }
+
+  > input {
+    padding-left: 4rem;
+    width: 100%;
+    height: 4rem;
+    border: none;
+    border-radius: 1.2rem;
+    background: var.$bg-color-2;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
