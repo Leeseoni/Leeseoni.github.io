@@ -10,7 +10,8 @@ import { Input } from "./components/Input";
 import data from "./data/data.json";
 import benefitList from "./data/benefit.json";
 import rangking from "./data/rangkin.json";
-import "./assets/index.css";
+import "./assets/css/index.css";
+import { Button } from "@mui/material";
 
 const App: React.FC = () => {
   // const [name] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);
@@ -36,12 +37,18 @@ const App: React.FC = () => {
       <section>
         <TipList tip={tip} title={title0} />
         팜플렛 스와이퍼
+        <Button variant="contained" size="large">
+          버튼 버튼 text
+        </Button>
       </section>
 
       <section>
         <RangkingList benefit={benefit} title={title1} />
         <RangkingList benefit={rangkin} title={title2} />
       </section>
+      <nav>
+        
+      </nav>
     </div>
   );
 };
