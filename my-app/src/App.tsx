@@ -7,11 +7,13 @@ import { RangkingList } from "./pages/RangkingList";
 import { EventBanner } from "./components/EventBanner";
 import { MainSlider } from "./components/MainSlider";
 import { Input } from "./components/Input";
+import { IconCategory } from "./components/IconCategory";
+import { Navigator } from "./components/Navigator";
+// import { Button } from "@mui/material";
 import data from "./data/data.json";
 import benefitList from "./data/benefit.json";
 import rangking from "./data/rangkin.json";
 import "./assets/css/index.css";
-import { Button } from "@mui/material";
 
 const App: React.FC = () => {
   // const [name] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);
@@ -35,11 +37,15 @@ const App: React.FC = () => {
       </section>
 
       <section>
+        <IconCategory />
+      </section>
+
+      <section>
         <TipList tip={tip} title={title0} />
         팜플렛 스와이퍼
-        <Button variant="contained" size="large">
+        {/* <Button variant="contained" size="large">
           버튼 버튼 text
-        </Button>
+        </Button> */}
       </section>
 
       <section>
@@ -47,7 +53,7 @@ const App: React.FC = () => {
         <RangkingList benefit={rangkin} title={title2} />
       </section>
       <nav>
-        
+        <Navigator />
       </nav>
     </div>
   );

@@ -14,3 +14,40 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@mixin menu {
+  margin: 0.5rem 0;
+  height: 2.4rem;
+  text-align: center;
+}
+
+@for $i from 1 through 10 {
+  .Icon_#{$i} {
+    @include menu;
+    background: url(src/assets/images/tab_icon_#{$i}.svg) no-repeat center / contain;
+  }
+
+  .Icon_#{$i} {
+    &__on {
+      @include menu;
+      background: url(src/assets/images/tab_icon_on_#{$i}.svg) no-repeat center / contain;
+    }
+  }
+
+  .business_#{$i} {
+    background: url(src/assets/images/category_icon_#{$i}.png) no-repeat top / 4rem;
+  }
+
+  // .tip_list {
+  //   > li {
+  //     &:nth-child(#{$i}) {
+  //       &::before {
+  //         background: url(src/assets/images/tip_icon_#{$i}.png) no-repeat center / contain;
+  //       }
+  //       > a {
+  //         flex: 1;
+  //       }
+  //     }
+  //   }
+  // }
+}

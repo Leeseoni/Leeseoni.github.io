@@ -37,6 +37,10 @@ a {
 section {
   padding: 1.6rem;
 
+  &:last-of-type {
+    padding-bottom: 9rem;
+  }
+
   .item {
     + .item {
       padding-top: 1.6rem;
