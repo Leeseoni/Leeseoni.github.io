@@ -1,0 +1,51 @@
+@use "../mixin/var";
+
+.mySwiper {
+  position: relative;
+  display: block;
+  margin-inline: -1.6rem;
+
+  :global(.swiper-wrapper) {
+    :global(.swiper-slide) {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      gap: 2rem;
+
+      > div {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      img {
+        display: block;
+        width: 11rem;
+        // height: 100%;
+        // aspect-ratio: 1;
+        // object-fit: cover;
+      }
+
+      .inner_txt {
+        li {
+          font-size: 1rem;
+
+          & + li {
+            margin-top: 1.2rem;
+          }
+
+          &:nth-child(1) {
+            font-size: 1.2rem;
+            font-weight: bold;
+          }
+
+          &:nth-child(3) {
+            padding-top: 1rem;
+            color: var.$text-red;
+          }
+        }
+      }
+    }
+  }
+}

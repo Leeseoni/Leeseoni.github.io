@@ -6,10 +6,12 @@ import { TipList } from "./pages/TipList";
 import { RangkingList } from "./pages/RangkingList";
 import { EventBanner } from "./components/EventBanner";
 import { MainSlider } from "./components/MainSlider";
+import { BannerSlider } from "./components/BannerSlider";
 import { Input } from "./components/Input";
 import { IconCategory } from "./components/IconCategory";
 import { Navigator } from "./components/Navigator";
 // import { Button } from "@mui/material";
+
 import data from "./data/data.json";
 import benefitList from "./data/benefit.json";
 import rangking from "./data/rangkin.json";
@@ -32,6 +34,7 @@ const App: React.FC = () => {
       <Input />
 
       <section>
+        {/* Visual Swiper */}
         <MainSlider />
         <EventBanner />
       </section>
@@ -42,10 +45,11 @@ const App: React.FC = () => {
 
       <section>
         <TipList tip={tip} title={title0} />
-        팜플렛 스와이퍼
-        {/* <Button variant="contained" size="large">
-          버튼 버튼 text
-        </Button> */}
+      </section>
+
+      <section>
+        {/* Banner Swiper */}
+        <BannerSlider />
       </section>
 
       <section>
