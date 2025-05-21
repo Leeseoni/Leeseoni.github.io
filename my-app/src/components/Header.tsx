@@ -1,9 +1,10 @@
 import React from "react";
-// import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import styles from "../assets/styles/components/_Header.module.scss";
+import { SelectAPT } from "../pages/SelectAPT";
 
 export const Header: React.FC = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
   return (
     <header className={styles.header}>
       {/* <h1 className={styles.header__logo}>logo</h1> */}
@@ -12,10 +13,14 @@ export const Header: React.FC = () => {
       <div
         className={styles.header__btn__menu}
         onClick={() => {
-          // navigate("/SelectAPT");
+          navigate("/pages/SelectAPT");
         }}>
         메뉴
       </div>
+
+      <Routes>
+        <Route path="/pages/SelectAPT" element={<SelectAPT />} />
+      </Routes>
     </header>
   );
 };

@@ -218,32 +218,33 @@ section {
 section:last-of-type {
   padding-bottom: 9rem;
 }
-section .item + .item {
+
+.item + .item {
   padding-top: 1.6rem;
 }
-section .item .title {
+.item .title {
   margin-block: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-section .item .title > p {
+.item .title > p {
   font-size: 2rem;
   font-weight: bold;
 }
-section .item .title > span {
+.item .title > span {
   font-size: 1.4rem;
   font-weight: bold;
   color: #757b80;
 }
-section .item .title > span.arrow {
+.item .title > span.arrow {
   width: 2.4rem;
   height: 2.4rem;
   font-size: 0;
   color: transparent;
   background: url("/src/assets/images/icon_arrow.svg") no-repeat center/contain;
 }
-section .item .capsule {
+.item .capsule {
   margin-bottom: 1.6rem;
 }
 
