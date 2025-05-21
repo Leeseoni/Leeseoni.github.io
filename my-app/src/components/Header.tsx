@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Link, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import styles from "../assets/styles/components/_Header.module.scss";
 import { SelectAPT } from "../pages/SelectAPT";
 
