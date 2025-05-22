@@ -13,13 +13,13 @@ export const Header: React.FC = () => {
       <div
         className={styles.header__btn__menu}
         onClick={() => {
-          navigate("/pages/SelectAPT");
+          navigate("tong/pages/SelectAPT");
         }}>
         메뉴
       </div>
 
       <Routes>
-        <Route path="/pages/SelectAPT" element={<SelectAPT />} />
+        <Route path="tong/pages/SelectAPT" element={<SelectAPT />} />
       </Routes>
     </header>
   );

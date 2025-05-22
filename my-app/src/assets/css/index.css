@@ -3,180 +3,189 @@
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_1.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_1.svg) no-repeat center/contain;
 }
 
 .Icon_1__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_1.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_1.svg) no-repeat center/contain;
 }
 
 .business_1 {
-  background: url(src/assets/images/category_icon_1.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_1.png) no-repeat top/4rem;
 }
 
 .Icon_2 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_2.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_2.svg) no-repeat center/contain;
 }
 
 .Icon_2__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_2.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_2.svg) no-repeat center/contain;
 }
 
 .business_2 {
-  background: url(src/assets/images/category_icon_2.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_2.png) no-repeat top/4rem;
 }
 
 .Icon_3 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_3.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_3.svg) no-repeat center/contain;
 }
 
 .Icon_3__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_3.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_3.svg) no-repeat center/contain;
 }
 
 .business_3 {
-  background: url(src/assets/images/category_icon_3.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_3.png) no-repeat top/4rem;
 }
 
 .Icon_4 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_4.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_4.svg) no-repeat center/contain;
 }
 
 .Icon_4__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_4.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_4.svg) no-repeat center/contain;
 }
 
 .business_4 {
-  background: url(src/assets/images/category_icon_4.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_4.png) no-repeat top/4rem;
 }
 
 .Icon_5 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_5.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_5.svg) no-repeat center/contain;
 }
 
 .Icon_5__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_5.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_5.svg) no-repeat center/contain;
 }
 
 .business_5 {
-  background: url(src/assets/images/category_icon_5.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_5.png) no-repeat top/4rem;
 }
 
 .Icon_6 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_6.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_6.svg) no-repeat center/contain;
 }
 
 .Icon_6__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_6.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_6.svg) no-repeat center/contain;
 }
 
 .business_6 {
-  background: url(src/assets/images/category_icon_6.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_6.png) no-repeat top/4rem;
 }
 
 .Icon_7 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_7.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_7.svg) no-repeat center/contain;
 }
 
 .Icon_7__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_7.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_7.svg) no-repeat center/contain;
 }
 
 .business_7 {
-  background: url(src/assets/images/category_icon_7.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_7.png) no-repeat top/4rem;
 }
 
 .Icon_8 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_8.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_8.svg) no-repeat center/contain;
 }
 
 .Icon_8__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_8.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_8.svg) no-repeat center/contain;
 }
 
 .business_8 {
-  background: url(src/assets/images/category_icon_8.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_8.png) no-repeat top/4rem;
 }
 
 .Icon_9 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_9.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_9.svg) no-repeat center/contain;
 }
 
 .Icon_9__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_9.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_9.svg) no-repeat center/contain;
 }
 
 .business_9 {
-  background: url(src/assets/images/category_icon_9.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_9.png) no-repeat top/4rem;
 }
 
 .Icon_10 {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_10.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_10.svg) no-repeat center/contain;
 }
 
 .Icon_10__on {
   margin: 0.5rem 0;
   height: 2.4rem;
   text-align: center;
-  background: url(src/assets/images/tab_icon_on_10.svg) no-repeat center/contain;
+  background: url(../../images/tab_icon_on_10.svg) no-repeat center/contain;
 }
 
 .business_10 {
-  background: url(src/assets/images/category_icon_10.png) no-repeat top/4rem;
+  background: url(../../images/category_icon_10.png) no-repeat top/4rem;
+}
+
+.tab {
+  opacity: 0;
+}
+
+.ani {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 * {

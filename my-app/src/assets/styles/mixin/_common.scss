@@ -24,18 +24,18 @@
 @for $i from 1 through 10 {
   .Icon_#{$i} {
     @include menu;
-    background: url(src/assets/images/tab_icon_#{$i}.svg) no-repeat center / contain;
+    background: url(../../images/tab_icon_#{$i}.svg) no-repeat center / contain;
   }
 
   .Icon_#{$i} {
     &__on {
       @include menu;
-      background: url(src/assets/images/tab_icon_on_#{$i}.svg) no-repeat center / contain;
+      background: url(../../images/tab_icon_on_#{$i}.svg) no-repeat center / contain;
     }
   }
 
   .business_#{$i} {
-    background: url(src/assets/images/category_icon_#{$i}.png) no-repeat top / 4rem;
+    background: url(../../images/category_icon_#{$i}.png) no-repeat top / 4rem;
   }
 
   // .tip_list {
@@ -50,4 +50,12 @@
   //     }
   //   }
   // }
+}
+
+.tab {
+  opacity: 0;
+}
+.ani {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
