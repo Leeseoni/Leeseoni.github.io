@@ -1,9 +1,13 @@
 import React from "react";
+import { useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import styles from "../assets/styles/components/_Header.module.scss";
 import { SelectAPT } from "../pages/SelectAPT";
+import { BenefitType } from "../module/Type";
+import benefitList from "../data/benefit.json";
 
 export const Header: React.FC = () => {
+  const [benefit] = useState<BenefitType>(benefitList);
   const navigate = useNavigate();
   return (
     <header className={styles.header}>
@@ -19,7 +23,7 @@ export const Header: React.FC = () => {
       </div>
 
       <Routes>
-        <Route path="tong/pages/SelectAPT" element={<SelectAPT />} />
+        <Route path="tong/pages/SelectAPT" element={<SelectAPT aptList={benefit} />} />
       </Routes>
     </header>
   );

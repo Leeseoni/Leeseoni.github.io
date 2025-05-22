@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Type } from "./module/Type";
 import { RangkingType } from "./module/Type";
+import { BenefitType } from "./module/Type";
 import { Header } from "./components/Header";
 import { TipList } from "./pages/TipList";
 import { RangkingList } from "./pages/RangkingList";
@@ -21,7 +22,7 @@ const App: React.FC = () => {
   // const [name] = useState(["구라댕씨를", "몰아내자", "타도구라댕"]);
 
   const [tip] = useState<Type>(data);
-  const [benefit] = useState<RangkingType>(benefitList);
+  const [benefit] = useState<BenefitType>(benefitList);
   const [rangkin] = useState<RangkingType>(rangking);
 
   let title0: string = "아파트 입주 꿀팁";

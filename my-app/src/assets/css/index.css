@@ -261,6 +261,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #17191a;
   border: none;
   border-radius: 0.8rem;
   line-height: 3.6rem;
